@@ -1,0 +1,127 @@
+/* Variables */
+$nav-foot-bg-color: #333;
+$nav-foot-color: #ddd;
+$text-sec: #ff1493;
+$background-color: #f5f5f5;
+
+
+
+/* Header */
+body {
+  padding-top: 80px;
+  text-align: center;
+}
+
+header, footer {
+  background-color: $nav-foot-bg-color;
+  color: $nav-foot-color;
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 30px 15px;
+  transition: all 0.5s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #bbb;
+}
+
+.logo img{
+  height: 40px;
+  width: 40px;
+}
+
+.cbp-af-header-shrink {
+  padding: 5px 0;
+  opacity: 0.8;
+}
+
+.fill-screen {
+  background-size: cover;
+  background-position: center;
+  height: 1000px;   // ne radi kako treba ************
+}
+
+.down-button {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+.down-button i {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.skills {
+  min-height: 400px;
+}
+
+
+.skills img {
+  height: 90px;
+  width: 80px;
+  display: inline-block;
+  margin: 5px 30px;
+}
+
+.skills img:last-child {
+  height: 80px;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+h2:after {
+  display: block;
+  height: 4px;
+  background-color: $text-sec;
+  content: " ";
+  width: 150px;
+  margin: 20px auto 65px auto;
+}
+
+.logos div {
+  display: inline-block;
+}
+
+.logos div img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logos div strong {
+  display: block;
+  font-size: 16px;
+}
+
+.skills p {
+  font-size: 18px;
+  padding: 50px 0;
+}
+
+.portfolio {
+  background-color: $background-color;
+}
+.work-description {
+  text-align: left;
+}
+
+.work-description ul {
+  padding: 0;
+}
+
+.technologies li {
+  color: #fff;
+  background: $text-sec;
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 4px;
+}
