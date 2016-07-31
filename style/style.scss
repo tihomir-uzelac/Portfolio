@@ -37,6 +37,22 @@ header, footer {
   width: 40px;
 }
 
+.about-text {
+  color: #fff;
+  text-align: left;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
 .cbp-af-header-shrink {
   padding: 5px 0;
   opacity: 0.8;
@@ -45,7 +61,7 @@ header, footer {
 .fill-screen {
   background-size: cover;
   background-position: center;
-  height: 1000px;   // ne radi kako treba ************
+ // height: 1000px;   // ne radi kako treba ************
 }
 
 .down-button {
@@ -85,7 +101,7 @@ h2:after {
   background-color: $text-sec;
   content: " ";
   width: 150px;
-  margin: 20px auto 65px auto;
+  margin: 20px auto 50px auto;
 }
 
 .logos div {
@@ -124,4 +140,19 @@ h2:after {
   display: inline-block;
   padding: 4px 9px;
   border-radius: 4px;
+}
+
+
+// contact me
+.contact img {
+  width: 100%;
+}
+
+.contact-list li {
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid $nav-foot-color;
+//  width: 36px;
+  font-size: 30px;
+  padding: 10px;
 }

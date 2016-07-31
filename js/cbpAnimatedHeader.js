@@ -43,3 +43,6 @@ var cbpAnimatedHeader = (function() {
 	init();
 
 })();
+
+// Add Bootstrap's scrollspy
+$('body').scrollspy({ target: '#navbar' });
